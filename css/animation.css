@@ -1,0 +1,53 @@
+@keyframes STI2D {
+    0%{margin-right: -50vw;}
+    70%{margin-right: 10vw;}
+    100%{margin-right: 0%;}
+}
+#title{
+    animation: STI2D 2s;
+}
+
+@keyframes getAwayLeft {
+    from{transform: translateX(0vw);}
+    to{transform: translateX(-100vw);}
+}
+@keyframes getAwayRight {
+    from{transform: translateX(0vw);}
+    to{transform: translateX(100vw);}
+}
+@keyframes comingRight {
+    from{transform: translateX(100vw);}
+    to{transform: translateX(0vw);}
+}
+@keyframes comingLeft {
+    from{transform: translateX(-100vw);}
+    to{transform: translateX(0vw);}
+}
+
+.getAwayLeft{
+    animation-name: getAwayLeft;
+    animation-duration: 1.5s;
+    position: absolute;
+}
+.getAwayRight{
+    animation-name: getAwayRight;
+    animation-duration: 1.5s;
+    position: absolute;
+}
+.comingRight{
+    animation-name: comingRight;
+    animation-duration: 1.5s;
+    position: absolute;
+}
+.comingLeft{
+    animation-name: comingLeft;
+    animation-duration: 1.5s;
+    position: absolute;
+}
+
+.comingRight h1{
+    transform: translate(8%);
+}
+.comingLeft h1{
+    transform: translate(8%);
+}

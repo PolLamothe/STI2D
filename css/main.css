@@ -1,0 +1,291 @@
+body{margin: 0px;-webkit-font-smoothing: antialiased;overflow-x: hidden;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@font-face {
+	font-family: 'Merri';
+	src: url("./police/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf")
+}
+@font-face {
+    font-family: Raleway;
+    src: url('./police/Raleway/Raleway-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: Rowdies;
+    src: url("./police/Rowdies/Rowdies-Bold.ttf");
+}
+
+.header{
+    height: 12vh;
+    background-color: #202020;
+    width: 100vw;
+    color: #202020;
+    position: relative;
+    
+}
+#title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-weight: 600;
+    margin-top: 1vh;
+}
+.accueilPicture{
+    width: 100vw;
+    height: 88vh;
+    object-fit: cover;
+    filter: blur(2px);
+    border: none;
+}
+.accueil{
+    height: 88vh;
+}
+
+.def{
+    padding-left: 10%;
+}
+.def h1{
+    color: white;
+    position: relative;
+    margin-top: 3%;
+    font-family: Rowdies;
+}
+.def div p{
+    position: relative;
+    grid-column: 2/4;
+    grid-row: 1;
+    color: white;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    width: 40vw;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.def div img{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 3.5vh;
+    border-radius: 20px;
+    width: 20vw;
+}
+.def div{
+    display:grid;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+    position: relative;
+    grid-column: 5;
+    margin-right: 7vw;
+    grid-row: 1/5;
+}
+td{
+    padding: 3px;
+    font-size: 14px;
+    font-family: raleway;
+}
+td:hover{
+    cursor: default;
+    box-shadow:0px 0px 0px 1px red inset;
+}
+.blueLine{
+    background-color: #e9faff;
+}
+.topLine{
+    background-color: #002933;
+    color: white;
+}
+.def div iframe{
+    width: 40vw;
+    aspect-ratio: 16/9;
+    grid-row: 3;
+    grid-column: 2;
+    border-radius: 30px;
+    margin-left: -8vw;
+}
+
+.spe{
+    margin-top: 5vh;
+}
+.spe h1{
+    color: white;
+    text-align: center;
+    font-family: Rowdies;
+    letter-spacing: 4px;
+}
+
+.poursuite{
+    margin-top: 8vh;
+    width: 90vw;
+    position: relative;
+    display: inline-block;   
+}
+.poursuiteTitle{
+    position: relative;
+    color: white;
+    font-family: rowdies;
+    width: fit-content;
+    float: right;
+}
+.poursuiteText{
+    width: 35vw;
+    text-align: center;
+    color: white;
+    font-family: Merri;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.poursuiteRightText{
+    grid-column: 1;
+    grid-row: 3;
+}
+.poursuiteRightTitle{
+    margin-right: 5vw;
+    text-align: right;
+}
+.poursuiteRightIMG{
+    grid-column: 2;
+    grid-row: 1/5;
+}
+.poursuiteLeftText{
+    grid-column: 3;
+    grid-row: 3;
+}
+.BTS{
+    display: grid;
+    margin-top: 12vh;
+    width: 50vw;
+    position: relative;
+    left: 90vw;
+    transform: translate(-100%);
+}
+.poursuiteIMG{
+    width: 13vw;
+    object-fit: contain;
+    max-width: 300px;
+}
+.poursuite_title2{
+    color: white;
+    margin-top: -5vh;
+    margin-bottom: 5vh;
+    font-family: raleway;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.5vw;
+}
+
+.DUT{
+    width: 50vw;
+    display: grid;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+.DUT img{
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+.DUT h1{
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 5vw;
+}
+
+.prepa{
+    display: grid;
+    margin-top: 2vh;
+    width: 50vw;
+    position: relative;
+    left: 90vw;
+    transform: translate(-100%);
+}
+
+.ingénieur{
+    width: 50vw;
+    display: grid;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+.ingénieur img{
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+.ingénieur h1{
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 5vw;
+}
+
+.specialite{
+    display: grid;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    background-color: white;
+    border-radius: 30px;
+}
+.speTitre{
+    color: white;
+    text-align: center;
+    font-family: raleway;
+    margin-top: 3vh;
+}
+.speLogo{
+    object-fit: cover;
+    width: 9vw;
+    grid-column: 6;
+    grid-row: 1/4;
+}
+.speText{
+    grid-column: 4;
+    grid-row: 2;
+    background-color: #202020;
+    color: white;
+    padding: 1vw;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 0.5vw grey;
+}
+.SINImage1{
+    grid-row: 4;
+    grid-column: 1/5;
+    margin-left: 2vw;
+}
+.SINImage2{
+    grid-row: 4;
+    grid-column: 5/10;
+}
+.speImage{
+    object-fit: cover;
+    width: 30vw;
+    aspect-ratio: 20/9;
+    border-radius: 25px;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+#ITEC{
+    display: none;
+}
+#AC{
+    display: none;
+}
+#EE{
+    display: none;
+}
+.spe_onglet{
+    height: 70vh !important;
+}
+
+
+@media only screen and (max-width:  1400px) {
+    .def div p{
+        width: 50vw;
+    }
+}
